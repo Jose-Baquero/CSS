@@ -1,11 +1,26 @@
+body{
+  font-family: Dancing Script;
+}
+
 header{
   text-shadow: 2px 2px 2px #02010a;
 }
-
+header h1{
+  text-indent: 20px;
+}
+nav{
+  display: block;
+  border: 50px;
+  text-align: right;
+  margin:auto;
+  vertical-align: center;
+}
 nav a{
   display: inline;
   text-align: right;
   text-decoration: none;
+  color: white;
+  font-size: 1.5em;
 }
 #imagen1{
   background-color: #82c3a6;
@@ -20,10 +35,12 @@ nav a{
 }
 .contenedor2{
   background-color: #d5c75f;
-  border: 1px solid black;
+  border: 1px solid #d5c75f;
   flex-direction: row;
   display: flex;
   text-align: center;
+  color: white;
+  font-size: 2em;
 }
 #imagen1 img{
   width: 80%;
@@ -32,10 +49,22 @@ nav a{
 #imagen2 img{
   width: 60%;
   text-align: center;
-  margin: 50px;
+  margin: 40px;
+  border: 2px solid black;
+  box-shadow: 4px 4px  #82c3a6;
 }
 #imagen3 img{
   width: 60%;
   text-align: center;
-  margin: 50px;
+  margin: 40px;
+  border: 2px solid black;
+  box-shadow: 4px 4px  #82c3a6;
+}
+#imagen2 img:hover{
+  transform: rotate(10deg);
+  transition: rotate, 2s;
+}
+#imagen3 img:hover{
+  transform: translate(20px,-5px);
+  transition: translate, 2s;
 }
