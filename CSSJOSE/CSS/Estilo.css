@@ -33,6 +33,8 @@ nav a{
 	flex-direction: row;
   border-radius: 10px 10px 0px 0px;
   display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 .contenedor2 {
   background-color: #d5c75f;
@@ -230,6 +232,12 @@ p img{
     text-align: center;
     margin: 0 auto;
   }
+  .contenedor header{
+    width: 100%;
+  }
+  .contenedor nav{
+    width: 100%;
+  }
   .imagen1 img{
     width: 90%;
     text-align: center;
@@ -290,5 +298,17 @@ p img{
   width: 100%;
   margin: 0 auto;
   }
+}
+body {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+  }
 
+  to {
+    margin-top: -5%;
+  }
 }
