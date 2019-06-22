@@ -1,5 +1,6 @@
 body{
   font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
 }
 
 header{
@@ -100,4 +101,83 @@ nav a{
 }
 p img{
   width: 30px;
+}
+.contenedor4{
+  background-color: #d5c75f;
+  border: 1px solid #d5c75f;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+.contenedor5{
+  background-color: #d5c75f;
+  border: 1px solid #d5c75f;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+#imagen41 img{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px  #02010a;
+  -webkit-filter:blur(10px)
+}
+#imagen42 img{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px  #02010a;
+  -webkit-filter:grayscale(100%)
+}
+#imagen43 img{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px  #02010a;
+  -webkit-filter:sepia(90%)
+}
+#imagen44 img{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px  #02010a;
+  -webkit-filter:grayscale(100%)
+}
+#imagen45 img{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px  #02010a;
+}
+#imagen46 img{
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px  #02010a;
+  -webkit-filter:grayscale(100%)
+}
+@media screen and (max-width:899px) {
+  .contenido{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:900px) {
+  .contenido{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
