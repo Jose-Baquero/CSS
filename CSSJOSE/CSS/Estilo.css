@@ -23,7 +23,7 @@ nav a{
   color: white;
   font-size: 1.5em;
 }
-#imagen1{
+.imagen1{
   background-color: #82c3a6;
   text-align: center;
 }
@@ -34,22 +34,25 @@ nav a{
   border-radius: 10px 10px 0px 0px;
   display: flex;
 }
-#contenedor2 {
+.contenedor2 {
   background-color: #d5c75f;
   flex-direction: row;
-  display: -webkit-flex;
   text-align: center;
   color: white;
   font-size: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
-#imagen1 img{
+.imagen1 img{
   width: 80%;
   margin: 50px;
 }
-#imagen2{
-  width: 50%;
+.imagen2{
+  width: 48%;
 }
-#imagen2 img{
+.imagen2 img{
   width: 90%;
   text-align: center;
   margin: 40px;
@@ -57,10 +60,10 @@ nav a{
   box-shadow: 4px 4px  #82c3a6;
   display: flex;
 }
-#imagen3{
-  width: 50%;
+.imagen3{
+  width: 48%;
 }
-#imagen3 img{
+.imagen3 img{
   width: 65%;
   text-align: center;
   margin: 40px;
@@ -68,11 +71,11 @@ nav a{
   box-shadow: 4px 4px  #82c3a6;
   display: flex;
 }
-#imagen2 img:hover{
+.imagen2 img:hover{
   transform: rotate(10deg);
   transition: rotate, 2s;
 }
-#imagen3 img:hover{
+.imagen3 img:hover{
   transform: translate(20px,-5px);
   transition: translate, 2s;
 }
@@ -227,13 +230,21 @@ p img{
     text-align: center;
     margin: 0 auto;
   }
-  #imagen2{
+  .imagen1 img{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .imagen2{
   width: 100%;
   margin: 0 auto;
   }
-  #imagen3{
+  .imagen3{
   width: 100%;
   margin: 0 auto;
+  }
+  .imagen3 img{
+    width: 90%;
   }
   .datos1{
     width: 100%;
