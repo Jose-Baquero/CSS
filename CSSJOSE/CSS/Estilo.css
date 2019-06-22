@@ -1,0 +1,41 @@
+header{
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+nav a{
+  display: inline;
+  text-align: right;
+  text-decoration: none;
+}
+#imagen1{
+  background-color: #82c3a6;
+  text-align: center;
+}
+.contenedor {
+  background-color: #5b7989;
+  color: white;
+	flex-direction: row;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+}
+.contenedor2{
+  background-color: #d5c75f;
+  border: 1px solid black;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+}
+#imagen1 img{
+  width: 80%;
+  margin: 50px;
+}
+#imagen2 img{
+  width: 60%;
+  text-align: center;
+  margin: 50px;
+}
+#imagen3 img{
+  width: 60%;
+  text-align: center;
+  margin: 50px;
+}
