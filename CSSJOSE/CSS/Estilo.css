@@ -79,12 +79,14 @@ nav a{
 .contenedor3{
   background-color:  #C6d5c5;
   border: 1px solid #C6d5c5;
-  flex-direction: row;
   display: -webkit-flex;
   text-align: center;
   color: black;
   font-size: 1em;
   border-radius: 0px 0px 10px 10px;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 .datos1{
   width: 24%;
@@ -111,65 +113,102 @@ p img{
 }
 .contenedor4{
   background-color: #d5c75f;
-  border: 1px solid #d5c75f;
-  flex-direction: row;
-  display: flex;
   text-align: center;
-  color: white;
-  font-size: 2em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 .contenedor5{
   background-color: #d5c75f;
-  border: 1px solid #d5c75f;
   flex-direction: row;
   display: flex;
   text-align: center;
   color: white;
   font-size: 2em;
 }
-#imagen41 img{
+.imagen41{
+  width: 31%;
+  text-align: center;
+  margin: 5px;
+  -webkit-filter:blur(10px)
+}
+.imagen41 img{
   width: 90%;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px  #02010a;
   -webkit-filter:blur(10px)
 }
-#imagen42 img{
+
+.imagen42{
+  width: 31%;
+  text-align: center;
+  margin: 5px;
+  -webkit-filter:grayscale(100%)
+}
+.imagen42 img{
   width: 90%;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px  #02010a;
   -webkit-filter:grayscale(100%)
 }
-#imagen43 img{
+
+.imagen43{
+  width: 31%;
+  text-align: center;
+  margin: 5px;
+  -webkit-filter:sepia(90%)
+}
+.imagen43 img{
   width: 90%;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px  #02010a;
   -webkit-filter:sepia(90%)
 }
-#imagen44 img{
+
+.imagen44{
+  width: 31%;
+  text-align: center;
+  margin: 5px;
+  -webkit-filter:grayscale(100%)
+}
+.imagen44 img{
   width: 90%;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px  #02010a;
   -webkit-filter:grayscale(100%)
 }
-#imagen45 img{
+.imagen45{
+  width: 31%;
+  text-align: center;
+  margin: 5px;
+}
+.imagen45 img{
   width: 90%;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px  #02010a;
 }
-#imagen46 img{
+
+.imagen46{
+  width: 31%;
+  text-align: center;
+  margin: 5px;
+  -webkit-filter:grayscale(100%)
+}
+.imagen46 img{
   width: 90%;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
   box-shadow: 2px 2px  #02010a;
   -webkit-filter:grayscale(100%)
@@ -188,32 +227,57 @@ p img{
     text-align: center;
     margin: 0 auto;
   }
-  #imagen2 {
+  #imagen2{
   width: 100%;
   margin: 0 auto;
   }
-  #imagen3 {
+  #imagen3{
   width: 100%;
   margin: 0 auto;
   }
-  .datos1 {
+  .datos1{
     width: 100%;
     margin:0 auto;
     order: 1;
   }
-  .datos2 {
+  .datos2{
     width: 100%;
     margin:0 auto;
     order: 2;
   }
-  .datos3 {
+  .datos3{
     width: 100%;
     margin:0 auto;
     order: 3;
   }
-  .datos4 {
+  .datos4{
     width: 100%;
     margin:0 auto;
     order: 4;
   }
+  .imagen41{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .imagen42{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .imagen43{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .imagen44{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .imagen45{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .imagen46{
+  width: 100%;
+  margin: 0 auto;
+  }
+
 }
